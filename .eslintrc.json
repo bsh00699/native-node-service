@@ -1,0 +1,40 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-const-assign": "warn",
+        "no-this-before-super": "warn",
+        "no-undef": "warn",
+        "no-unreachable": "warn",
+        "no-unused-vars": "warn",
+        "no-var": 0,
+        "constructor-super": "warn",
+        "valid-typeof": "warn",
+        "comma-dangle": "off",
+        "max-len": "off",
+        "indent": [
+            "error",
+            4
+        ],
+        "new-cap": [
+            "warn",
+            {
+                "newIsCapExceptions": [
+                    "createCanvas"
+                ]
+            }
+        ]
+    },
+    "extends": "koa"
+}
